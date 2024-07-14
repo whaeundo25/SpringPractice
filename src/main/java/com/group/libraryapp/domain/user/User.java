@@ -8,6 +8,7 @@ import java.util.List;
 
 // 스프링이 유저 객체와 user table을 같은 것으로 바라본다는 의미
 @Entity // : 저장되고 관리되어야 하는 데이터
+@Table(name="user")
 public class User {
 
     @Id // : 해당 필드를 primary key로 간주한다는 의미
